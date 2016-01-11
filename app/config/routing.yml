@@ -1,0 +1,13 @@
+tech_blog:
+    resource: "@TechBlogBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+lynda_magazine:
+    resource: "@LyndaMagazineBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
